@@ -9,28 +9,28 @@
     {
       "text": "备忘录",
       "pagePath": "pages/note/note",
-      "iconPath": "images/icons/2.png",
-      "selectedIconPath": "images/icons/1.png"
+      "iconPath": "images/icons/备忘录2.png",
+      "selectedIconPath": "images/icons/备忘录1.png"
     },
     {
       "text": "时钟",
       "pagePath": "pages/plant/plant",
-      "iconPath": "images/icons/3.png",
-      "selectedIconPath": "images/icons/4.png"
+      "iconPath": "images/icons/时钟2.png",
+      "selectedIconPath": "images/icons/时钟1.png"
     },
     {
       "text": "图表",
       "pagePath": "pages/chart/chart",
-      "iconPath": "images/icons/3.png",
-      "selectedIconPath": "images/icons/4.png"
+      "iconPath": "images/icons/图表2.png",
+      "selectedIconPath": "images/icons/图表1.png"
     }
   ],
-  "backgroundColor":"#99ff99",
+  "backgroundColor":"#ffffff",
   "color": "#000000",
   "selectedColor": "#000000"
 },
 "window": {
-  "navigationBarBackgroundColor": "#99ff99",
+  "navigationBarBackgroundColor": "#FFa07a",
   "navigationBarTextStyle": "white",
   "navigationBarTitleText": "clock"
 }
