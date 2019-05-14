@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/note/note",
+    "pages/plant/plant",
+    "pages/chart/chart"
+  ],
+"tabBar": {
+  "list": [
+    {
+      "text": "备忘录",
+      "pagePath": "pages/note/note",
+      "iconPath": "images/icons/2.png",
+      "selectedIconPath": "images/icons/1.png"
+    },
+    {
+      "text": "时钟",
+      "pagePath": "pages/plant/plant",
+      "iconPath": "images/icons/3.png",
+      "selectedIconPath": "images/icons/4.png"
+    },
+    {
+      "text": "图表",
+      "pagePath": "pages/chart/chart",
+      "iconPath": "images/icons/3.png",
+      "selectedIconPath": "images/icons/4.png"
+    }
+  ],
+  "backgroundColor":"#99ff99",
+  "color": "#000000",
+  "selectedColor": "#000000"
+},
+"window": {
+  "navigationBarBackgroundColor": "#99ff99",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "clock"
+}
+
+}
