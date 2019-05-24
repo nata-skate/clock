@@ -8,3 +8,4 @@ tab图标优化，确定了主要色调
 ## 5/25
 中间页面的倒计时模块完成。
 选择备忘录功能尚未完成，页面布局尚未完成。
+![.](https://github.com/nata-skate/clock/blob/master/%7B5R%5D%25RN%5D14CNK%60B%404P21(SX.png) 
