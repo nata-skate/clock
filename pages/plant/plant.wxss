@@ -1,23 +1,37 @@
+.container{
+   display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items: center;
+}
 .counting {
-  font-size: 20px; /*设置文字字号*/
+  height:10vh;
+  font-size: 30px; /*设置文字字号*/
   color: #ffa07a; /*设置文字颜色*/
-  display: flex;
-  justify-content: center;
+    display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+    align-items: center;
 }
 
 .input {
+  height:20vh;
   font-size: 15px; /*设置文字字号*/
   color: #ffa07a; /*设置文字颜色*/
-  display: flex;
-  justify-content: center;
+    display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+    align-items: center;
 }
 
 .counting_time {
-  font-size: 45px; /*设置文字字号*/
-  display: flex;
-  justify-content: center;
-  /*align-content: center;*/
+  height:30vh;
+  font-size: 60px; /*设置文字字号*/
   color: #ffa07a; /*设置文字颜色*/
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+    align-items: center;
 }
 
 .button {
@@ -28,9 +42,10 @@
   font-size: 14px;
   background-color: #ffa07a;
   color: white;
-  /*overflow: hidden;*/
+  overflow: hidden;
   height: 35px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+    align-items: center;
 }
