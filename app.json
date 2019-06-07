@@ -1,7 +1,7 @@
 {
   "pages":[
-        "pages/plant/plant",
     "pages/note/note",
+      "pages/plant/plant",
     "pages/chart/chart"
   ],
 "tabBar": {

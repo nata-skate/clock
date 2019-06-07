@@ -1,5 +1,4 @@
 <view class='contanier'>
-  <text class='counting' wx:if="{{clock_minute!='计时结束'}}"> time</text>
   <view class='counting_time' wx:if="{{clock_minute!='计时结束'}}">{{clock_minute}}:{{clock_second}}</view>
   <view wx:if="{{clock_minute=='计时结束'}}"> {{clock_minute}}</view>
   <view class='input'>请输入时间(分钟)：

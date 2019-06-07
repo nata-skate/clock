@@ -1,2 +1,5 @@
 <!--pages/chart/chart.wxml-->
-<text>this is the chart</text>
+<view wx:for="{{list}}" wx:key="this" style="padding: 10px 0;border-bottom: 1px solid #ddd;">
+    {{index+1}}、{{item.name}}
+</view>
+

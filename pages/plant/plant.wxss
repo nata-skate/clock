@@ -25,7 +25,7 @@
 }
 
 .counting_time {
-  height:30vh;
+  height:38vh;
   font-size: 60px; /*设置文字字号*/
   color: #ffa07a; /*设置文字颜色*/
   display:flex;

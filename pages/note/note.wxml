@@ -1,2 +1,21 @@
 <!--pages/note/note.wxml-->
-<text>this is the note</text>
+
+<view wx:for="{{list}}" wx:key="this" style="padding: 10px 0;border-bottom: 1px solid #ddd;">
+    <input placeholder='请输入您想做的第{{index+1}}件事' data-index="{{index}}" bindinput='inputnote'   ></input>
+<text bindtap="remove" data-index="{{index}}" class="delete"  >删除</text>
+</view>
+
+
+<view>
+  <button class="button" bindtap="add_after">
+    新增备忘录
+  </button>
+  <button class="button" bindtap="clear">
+    清空备忘录
+  </button>
+</view>
+
+
+
+<!--这是调试用的！哈哈哈修改成功了~~~>
+<view wx:for="{{list}}" wx:key="this" style="padding: 10px 0;border-bottom: 1px solid #ddd;"> {{index+1}}、{{item.name}}</view>-->
